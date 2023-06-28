@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stylereserva.css">
+    <title>Reserva</title>
+</head>
+<body>
+    <form>
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required>
+      
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+      
+        <label for="phone">Telefone:</label>
+        <input type="tel" id="phone" name="phone" required>
+      
+        <label for="date">Data:</label>
+        <input type="date" id="date" name="date" required>
+      
+        <label for="time">Horário:</label>
+        <input type="time" id="time" name="time" required>
+      
+        <label for="guests">Número de pessoas:</label>
+        <input type="number" id="guests" name="guests" required>
+      
+        <label for="message">Mensagem adicional:</label>
+        <textarea id="message" name="message"></textarea>
+      
+        <label for="branch">Filial:</label>
+        <select id="branch" name="branch" required>
+          <option value="">Selecione a filial</option>
+          <option value="cidade1">Cidade 1</option>
+          <option value="cidade2">Cidade 2</option>
+          <option value="cidade3">Cidade 3</option>
+          <option value="cidade4">Cidade 4</option>
+          <option value="cidade5">Cidade 5</option>
+        </select>
+        
+        <button type="submit">Enviar</button>
+      </form>
+      
+</body>
+</html>
