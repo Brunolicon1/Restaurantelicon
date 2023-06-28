@@ -9,6 +9,12 @@ h1{
     display: inline-block;
     
 }
+.whatsapp{
+    position: fixed;
+    margin-left: 90%;
+    margin-top: 35%;
+   
+}
 h3{
     margin-left: 50px;
 }
